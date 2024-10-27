@@ -14,7 +14,6 @@ services:
       GITLAB_SHARED_RUNNERS_REGISTRATION_TOKEN:
       RAILS_ENV: production
     ports:
-     - '22:22'
      - '80:80'
      - '443:443'
     volumes:
